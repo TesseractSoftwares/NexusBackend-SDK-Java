@@ -1,5 +1,6 @@
 package com.tesseractsoftwares.nexusbackend.sdkjava;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tesseractsoftwares.nexusbackend.sdkjava.callbacks.AuthCallbacks;
 import com.tesseractsoftwares.nexusbackend.sdkjava.dtos.NexusAuthenticationRequestDto;
 import org.apache.hc.client5.http.classic.methods.HttpPost;
@@ -16,10 +17,12 @@ import java.nio.charset.StandardCharsets;
 public class AuthClient {
     private String baseUrl;
     private String secretKey;
+    private ObjectMapper objectMapper;
 
     public AuthClient(String baseUrl, String secretKey) {
         this.baseUrl = baseUrl;
         this.secretKey = secretKey;
+        this.objectMapper = new ObjectMapper();
     }
 
     public void authenticate(
@@ -32,7 +35,7 @@ public class AuthClient {
             HttpPost httpPost = new HttpPost(baseUrl + "/api/auth/login");
 
             // Create JSON solicitude
-            String json = "{\"email\":\"" + dto.getEmail() + "\", \"password\":\"" + dto.getPassword() + "\"}";
+            String json = objectMapper.writeValueAsString(dto);
             StringEntity entity = new StringEntity(json);
             httpPost.setEntity(entity);
             httpPost.setHeader("Content-type", "application/json");
