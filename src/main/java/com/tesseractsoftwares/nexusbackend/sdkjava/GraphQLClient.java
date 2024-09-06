@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 public class GraphQLClient {
-    private String baseUrl;
+    private final String baseUrl;
 
     public GraphQLClient(String baseUrl) {
         this.baseUrl = baseUrl;
