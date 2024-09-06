@@ -4,6 +4,7 @@ import org.apache.hc.client5.http.classic.methods.HttpPost;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
 import org.apache.hc.client5.http.impl.classic.HttpClients;
+import org.apache.hc.core5.http.ContentType;
 import org.apache.hc.core5.http.ParseException;
 import org.apache.hc.core5.http.io.entity.EntityUtils;
 import org.apache.hc.core5.http.io.entity.StringEntity;
@@ -22,14 +23,14 @@ public class GraphQLClient {
         try (CloseableHttpClient client = HttpClients.createDefault()){
             HttpPost httpPost = new HttpPost(baseUrl + "/graphql");
 
-            String json = "{\"query\":\"" + query + "\"}";
-            StringEntity entity = new StringEntity(json);
+            // "query { userInfo(email: \"velas.blas.vrsa@gmail.com\") { coins email level userName } }";
+
+            String json = "{\"query\":\"" + query.replace("\"", "\\\"") + "\"}";
+            StringEntity entity = new StringEntity(json, ContentType.APPLICATION_JSON);
             httpPost.setEntity(entity);
-            httpPost.setHeader("Content-type", "application/json");
 
             try (CloseableHttpResponse response = client.execute(httpPost)) {
-                String responseString = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
-                return responseString;
+                return EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
             } catch (IOException | ParseException e) {
                 throw new RuntimeException(e);
             }
