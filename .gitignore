@@ -61,3 +61,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
+src/main/java/com/tesseractsoftwares/nexusbackend/sdkjava/Main.java
