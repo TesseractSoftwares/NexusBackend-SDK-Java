@@ -15,9 +15,9 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 public class AuthClient {
-    private String baseUrl;
-    private String secretKey;
-    private ObjectMapper objectMapper;
+    private final String baseUrl;
+    private final String secretKey;
+    private final ObjectMapper objectMapper;
 
     public AuthClient(String baseUrl, String secretKey) {
         this.baseUrl = baseUrl;
