@@ -23,8 +23,6 @@ public class GraphQLClient {
         try (CloseableHttpClient client = HttpClients.createDefault()){
             HttpPost httpPost = new HttpPost(baseUrl + "/graphql");
 
-            // "query { userInfo(email: \"velas.blas.vrsa@gmail.com\") { coins email level userName } }";
-
             String json = "{\"query\":\"" + query.replace("\"", "\\\"") + "\"}";
             StringEntity entity = new StringEntity(json, ContentType.APPLICATION_JSON);
             httpPost.setEntity(entity);
