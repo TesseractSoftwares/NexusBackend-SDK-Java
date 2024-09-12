@@ -28,7 +28,11 @@ public class GraphQLClient {
             httpPost.setEntity(entity);
 
             try (CloseableHttpResponse response = client.execute(httpPost)) {
-                return EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
+                if (response.getCode() == 200) {
+                    return EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
+                } else {
+                    throw new RuntimeException("GraphQL query failed with response code: " + response.getCode());
+                }
             } catch (IOException | ParseException e) {
                 throw new RuntimeException(e);
             }
