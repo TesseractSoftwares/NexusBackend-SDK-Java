@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87c71466-f76a-47ad-a035-ba5a3616273e" name="Changes" comment="Change json format">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2m1CTRTphumCEH2VtCsblbfncNv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AuthClientTest$AuthClientTest.authenticateSuccessTest.executor": "Run",
+    "JUnit.AuthClientTest.authenticateErrorTest.executor": "Run",
+    "JUnit.AuthClientTest.authenticateInvalidCredentialsTest.executor": "Run",
+    "JUnit.AuthClientTest.authenticateSuccessTest.executor": "Run",
+    "JUnit.AuthClientTest.executor": "Run",
+    "JUnit.AuthClientTest.testAuthenticateError.executor": "Run",
+    "JUnit.AuthClientTest.testAuthenticateInvalidCredentials.executor": "Run",
+    "JUnit.AuthClientTest.testAuthenticateSuccess.executor": "Run",
+    "JUnit.GraphQLClientTest.executor": "Run",
+    "JUnit.GraphQLClientTest.testExecuteGraphQLQuery_failure.executor": "Run",
+    "JUnit.GraphQLClientTest.testExecuteGraphQLQuery_networkError.executor": "Run",
+    "JUnit.GraphQLClientTest.testExecuteGraphQLQuery_success.executor": "Run",
+    "Maven.NexusBackend-SDK-Java [clean].executor": "Run",
+    "Maven.NexusBackend-SDK-Java [install].executor": "Run",
+    "Maven.NexusBackend-SDK-Java [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "development",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.GraphQLClientTest">
+    <configuration name="AuthClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NexusBackend-SDK-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tesseractsoftwares.nexusbackend.sdkjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava" />
+      <option name="MAIN_CLASS_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava.AuthClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphQLClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NexusBackend-SDK-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tesseractsoftwares.nexusbackend.sdkjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava" />
+      <option name="MAIN_CLASS_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava.GraphQLClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphQLClientTest.testExecuteGraphQLQuery_failure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NexusBackend-SDK-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tesseractsoftwares.nexusbackend.sdkjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava" />
+      <option name="MAIN_CLASS_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava.GraphQLClientTest" />
+      <option name="METHOD_NAME" value="testExecuteGraphQLQuery_failure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphQLClientTest.testExecuteGraphQLQuery_networkError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NexusBackend-SDK-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tesseractsoftwares.nexusbackend.sdkjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava" />
+      <option name="MAIN_CLASS_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava.GraphQLClientTest" />
+      <option name="METHOD_NAME" value="testExecuteGraphQLQuery_networkError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphQLClientTest.testExecuteGraphQLQuery_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NexusBackend-SDK-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tesseractsoftwares.nexusbackend.sdkjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava" />
+      <option name="MAIN_CLASS_NAME" value="com.tesseractsoftwares.nexusbackend.sdkjava.GraphQLClientTest" />
+      <option name="METHOD_NAME" value="testExecuteGraphQLQuery_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GraphQLClientTest" />
+        <item itemvalue="JUnit.GraphQLClientTest.testExecuteGraphQLQuery_failure" />
+        <item itemvalue="JUnit.GraphQLClientTest.testExecuteGraphQLQuery_networkError" />
+        <item itemvalue="JUnit.GraphQLClientTest.testExecuteGraphQLQuery_success" />
+        <item itemvalue="JUnit.AuthClientTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87c71466-f76a-47ad-a035-ba5a3616273e" name="Changes" comment="Change json format" />
+      <created>1726234702624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726234702624</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change json format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change json format" />
+  </component>
+</project>

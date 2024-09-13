@@ -1,0 +1,7 @@
+com\tesseractsoftwares\nexusbackend\sdkjava\callbacks\AuthCallbacks.class
+com\tesseractsoftwares\nexusbackend\sdkjava\AuthClient.class
+com\tesseractsoftwares\nexusbackend\sdkjava\callbacks\AuthCallbacks$OnSuccess.class
+com\tesseractsoftwares\nexusbackend\sdkjava\dtos\NexusAuthenticationRequestDto.class
+com\tesseractsoftwares\nexusbackend\sdkjava\callbacks\AuthCallbacks$OnError.class
+com\tesseractsoftwares\nexusbackend\sdkjava\callbacks\AuthCallbacks$OnInvalidCredentials.class
+com\tesseractsoftwares\nexusbackend\sdkjava\GraphQLClient.class

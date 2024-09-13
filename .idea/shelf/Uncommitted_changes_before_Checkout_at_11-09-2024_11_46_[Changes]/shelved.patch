@@ -1,0 +1,81 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"32ac72cb-78e0-496e-8a64-821015d5ff58\" name=\"Changes\" comment=\"Change json format\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"development\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"5\" />\r\n    <option name=\"recentBranches\">\r\n      <RecentBranches>\r\n        <option name=\"branchesForRepo\">\r\n          <list>\r\n            <RecentBranchesForRepo>\r\n              <option name=\"branches\">\r\n                <list>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"testing\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1726065639\" />\r\n                  </RecentBranch>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"development\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1725888914\" />\r\n                  </RecentBranch>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"master\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1725284845\" />\r\n                  </RecentBranch>\r\n                </list>\r\n              </option>\r\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\r\n            </RecentBranchesForRepo>\r\n          </list>\r\n        </option>\r\n      </RecentBranches>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lW8tDEsxQRjodFlQrmMbMZhkOB\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"JUnit.AuthClientTest.executor\": \"Run\",\r\n    \"JUnit.AuthClientTest.testAuthenticateSuccess.executor\": \"Run\",\r\n    \"Maven.NexusBackend-SDK-Java [clean].executor\": \"Run\",\r\n    \"Maven.NexusBackend-SDK-Java [install].executor\": \"Run\",\r\n    \"Maven.NexusBackend-SDK-Java [package].executor\": \"Run\",\r\n    \"Maven.nexusbackend-sdk-java [install].executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Developing/plugintest\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\": [\r\n      \"JAVA\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"JUnit.AuthClientTest\">\r\n    <configuration name=\"AuthClientTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"NexusBackend-SDK-Java\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.tesseractsoftwares.nexusbackend.sdkjava.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.tesseractsoftwares.nexusbackend.sdkjava.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.tesseractsoftwares.nexusbackend.sdkjava.test.AuthClientTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AuthClientTest.testAuthenticateSuccess\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"NexusBackend-SDK-Java\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.tesseractsoftwares.nexusbackend.sdkjava.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.tesseractsoftwares.nexusbackend.sdkjava.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.tesseractsoftwares.nexusbackend.sdkjava.test.AuthClientTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testAuthenticateSuccess\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.AuthClientTest\" />\r\n        <item itemvalue=\"JUnit.AuthClientTest.testAuthenticateSuccess\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"32ac72cb-78e0-496e-8a64-821015d5ff58\" name=\"Changes\" comment=\"\" />\r\n      <created>1725284684689</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725284684689</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"First class, pom.xml and change gitignore\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725285604051</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725285604051</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"First class, pom.xml and change gitignore\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725285703068</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725285703068</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"problem fix\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725596649781</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725596649781</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"First class, pom.xml and change gitignore\" />\r\n    <MESSAGE value=\"problem fix\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"problem fix\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="32ac72cb-78e0-496e-8a64-821015d5ff58" name="Changes" comment="Change json format" />
++    <list default="true" id="32ac72cb-78e0-496e-8a64-821015d5ff58" name="Changes" comment="Initial commit" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -18,12 +18,18 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="Vincent Depassier &lt;49379479+theinventorist@users.noreply.github.com&gt;" />
++      </list>
++    </option>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="development" />
++        <entry key="$PROJECT_DIR$" value="testing" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="GitToolBoxStore">
+     <option name="projectConfigVersion" value="5" />
+@@ -79,6 +85,7 @@
+     "Maven.NexusBackend-SDK-Java [package].executor": "Run",
+     "Maven.nexusbackend-sdk-java [install].executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "testing",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "C:/Developing/plugintest",
+     "project.structure.last.edited": "Project",
+@@ -164,7 +171,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1725596649781</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Initial commit">
++      <option name="closed" value="true" />
++      <created>1726065754535</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1726065754535</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Initial commit">
++      <option name="closed" value="true" />
++      <created>1726065811933</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1726065811933</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -181,6 +204,8 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="First class, pom.xml and change gitignore" />
+     <MESSAGE value="problem fix" />
+-    <option name="LAST_COMMIT_MESSAGE" value="problem fix" />
++    <MESSAGE value="Change json format" />
++    <MESSAGE value="Initial commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+   </component>
+ </project>
+\ No newline at end of file
